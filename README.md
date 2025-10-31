@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
+```
 clc;
 clear;
 x = [1 2 3 4];
@@ -38,10 +39,12 @@ subplot(3,1,3);
 plot2d3(n,abs(Y));
 xlabel("k"); ylabel("|Y(k)|");
 title("FFT Magnitude Spectrum (Built-in)");
+```
 
 # OUTPUT: 
 ![WhatsApp Image 2025-10-31 at 10 50 20_0a3a833d](https://github.com/user-attachments/assets/e8bba0bf-9bfa-45e4-94af-b48a510dca4a)
 
 
 # RESULT: 
+DFT and FFT of a given sequence in SCILAB
 
